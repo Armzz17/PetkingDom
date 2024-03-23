@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700;900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media (max-width: 380px) and (max-height: 603px) {
+    .grid {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+  }
+  .your-container-class::-webkit-scrollbar {
+    width: 7px;
+  }
+
+  .your-container-class::-webkit-scrollbar-track {
+    background: #F6F1E9; /* Change this to your preferred color */
+    opacity: 80;
+  }
+
+  .your-container-class::-webkit-scrollbar-thumb {
+    background-color: #FF8400; /* Change this to your preferred color */
+    border-radius: 6px;
+   
+  }
